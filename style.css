@@ -15,7 +15,7 @@ body{
     display: flex;
     flex-direction: column;
 
-    width: 100dvw;
+    width: 100%;
     height: 100dvh;
 }
 
@@ -40,13 +40,13 @@ header img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 50px;
 
 }
 .card-text{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
 }
 button{
     height: 60px;
