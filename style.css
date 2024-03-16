@@ -20,9 +20,8 @@ body{
 }
 
 header{
-    display: block;
-    justify-content: first baseline;
-    align-items: flex-start;
+    display: flex;
+    justify-content: first;
     padding: 50px 100px ;
 }
 
