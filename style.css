@@ -14,7 +14,8 @@ body{
     color: white;
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
+    align-items: start;
     width: 100%;
     height: 100dvh;
 }
@@ -22,7 +23,7 @@ body{
 header{
     display: flex;
     justify-content: first;
-    padding: 50px 100px ;
+    padding: 30px 60px ;
 }
 
 header img{
@@ -33,7 +34,7 @@ header img{
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 1px 100px;
+    padding: 1px 60px;
 }
 .card{
     display: flex;
