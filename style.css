@@ -82,7 +82,8 @@ img{
     display: flex;
     justify-content: end;
     gap: 40px;
-    padding-top: 100px;
+    padding-top: 30px;
+    
 }
 .btn-shape{
     width: 40px;
@@ -92,4 +93,9 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.btn-shape:hover{
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
 }
