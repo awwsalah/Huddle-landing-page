@@ -12,13 +12,28 @@ body{
     background-image: url(images/bg-desktop.svg);
     background-color: var(--primary-color);
     color: white;
+    display: flex;
+    flex-direction: column;
+
+    width: 100dvw;
+    height: 100dvh;
+}
+
+header{
+    display: block;
+    justify-content: first baseline;
+    align-items: flex-start;
+    padding: 50px 100px ;
+}
+
+header img{
+    width: 240px;
 }
 
 .container{
     display: flex;
     flex-direction: column;
     width: 100dvw;
-    height: 100dvh;
     padding: 100px;
 }
 .card{
@@ -55,6 +70,9 @@ h1{
 p{
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
+    font-size: 28px;
+    line-height: 1.8;
+    opacity: 80%;
 }
 
 img{
