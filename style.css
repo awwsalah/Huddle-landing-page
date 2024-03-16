@@ -81,7 +81,7 @@ img{
 .social-icons{
     display: flex;
     justify-content: end;
-    gap: 30px;
+    gap: 40px;
 }
 .btn-shape{
     width: 40px;
